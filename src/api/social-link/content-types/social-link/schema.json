@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_links",
+  "info": {
+    "singularName": "social-link",
+    "pluralName": "social-links",
+    "displayName": "socialLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Linkedin": {
+      "type": "string"
+    },
+    "Github": {
+      "type": "string"
+    }
+  }
+}

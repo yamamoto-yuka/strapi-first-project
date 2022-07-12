@@ -1,0 +1,37 @@
+GET https://hammerhead-app-lb3j6.ondigitalocean.app/api/todos
+
+###
+POST https://hammerhead-app-lb3j6.ondigitalocean.app/api/todos
+Content-Type: application/json
+
+{
+  "data":{
+        "task": "newtask",
+        "isComplete": false,
+        "isDeleted": false
+  }
+}
+
+
+
+###
+PUT https://hammerhead-app-lb3j6.ondigitalocean.app/api/todos/2
+Content-Type: application/json
+
+{
+   "data":{
+        "task": "newtask",
+        "isComplete": true,
+        "isDeleted": false
+  }
+}
+
+###
+DELETE https://hammerhead-app-lb3j6.ondigitalocean.app/api/todos/2
+
+###
+
+
+
+
+
